@@ -12,7 +12,7 @@ import (
 	"net/http"
 )
 
-const serviceBURL = "http://service-b:8081/weather"
+const serviceBURL = "http://service-b:9090/weather"
 
 type CEPRequest struct {
 	CEP string `json:"cep"`
